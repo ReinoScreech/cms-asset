@@ -3,7 +3,7 @@
 --// If the unc check is not working using the source, you can use the loadstring/vluau version here:
 --[[
 local loadstring = pcall(loadstring, "x=1") and loadstring or require(require(123068958552495)("vLuau"))
-loadstring(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/ReinoScreech/cms/refs/heads/main/src/unc.lua"))()
+loadstring(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/ReinoScreech/cms-asset/refs/heads/main/src/uncme.lua"))()
 ]]
 --// the loadstring version will ALWAYS use all and short as the settings so if you need to change them you'll need to fork them
 
